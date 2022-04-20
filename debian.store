@@ -1,1 +1,1 @@
-{"base": "d73bba8", "parent": "debian/rolling/warehouse_ros_sqlite", "previous": "1753e61", "trim": "", "trimbase": ""}
+{"base": "b71b1e8", "parent": "debian/humble/warehouse_ros_sqlite", "previous": "d2b5921", "trim": "", "trimbase": ""}
