@@ -1,0 +1,12 @@
+Source: ros-humble-warehouse-ros-sqlite
+Section: misc
+Priority: optional
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libsqlite3-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto (>= 0.7.1) <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-class-loader, ros-humble-geometry-msgs <!nocheck>, ros-humble-rclcpp, ros-humble-sqlite3-vendor, ros-humble-warehouse-ros, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/warehouse_ros
+Standards-Version: 3.9.2
+
+Package: ros-humble-warehouse-ros-sqlite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-class-loader, ros-humble-rclcpp, ros-humble-warehouse-ros, sqlite3, ros-humble-ros-workspace
+Description: Implementation of warehouse_ros for sqlite
