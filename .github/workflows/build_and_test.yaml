@@ -26,11 +26,11 @@ jobs:
           - {ROS_DISTRO: rolling, ROS_REPO: testing, CCOV_UPLOAD: false}
           - {ROS_DISTRO: galactic, ROS_REPO: main, CCOV_UPLOAD: false}
           - {ROS_DISTRO: galactic, ROS_REPO: testing, CCOV_UPLOAD: false}
+          - {ROS_DISTRO: humble, ROS_REPO: testing, CCOV_UPLOAD: false}
     env:
       CCACHE_DIR: ${{ github.workspace }}/.ccache
       BASEDIR: ${{ github.workspace }}/.work
       CACHE_PREFIX: ${{ matrix.env.ROS_DISTRO }}-${{ matrix.env.ROS_REPO }}
-      UPSTREAM_WORKSPACE: warehouse_ros_sqlite.repos
 
     name: ${{ matrix.env.ROS_DISTRO }}-${{ matrix.env.ROS_REPO }}${{ matrix.env.CCOV_UPLOAD && ' + ccov' || ''}}
     runs-on: ubuntu-latest
