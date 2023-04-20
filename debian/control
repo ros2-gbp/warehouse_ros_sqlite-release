@@ -1,0 +1,12 @@
+Source: ros-iron-warehouse-ros-sqlite
+Section: misc
+Priority: optional
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libsqlite3-dev, ros-iron-ament-cmake, ros-iron-ament-cmake-copyright <!nocheck>, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto (>= 0.7.1) <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-class-loader, ros-iron-geometry-msgs <!nocheck>, ros-iron-rclcpp, ros-iron-sqlite3-vendor, ros-iron-warehouse-ros, ros-iron-ros-workspace
+Homepage: http://ros.org/wiki/warehouse_ros
+Standards-Version: 3.9.2
+
+Package: ros-iron-warehouse-ros-sqlite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-class-loader, ros-iron-rclcpp, ros-iron-warehouse-ros, sqlite3, ros-iron-ros-workspace
+Description: Implementation of warehouse_ros for sqlite
