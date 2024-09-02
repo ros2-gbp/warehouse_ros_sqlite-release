@@ -1,0 +1,12 @@
+Source: ros-jazzy-warehouse-ros-sqlite
+Section: misc
+Priority: optional
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-copyright <!nocheck>, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto (>= 0.7.1) <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-class-loader, ros-jazzy-geometry-msgs <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-sqlite3-vendor, ros-jazzy-warehouse-ros, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/warehouse_ros
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-warehouse-ros-sqlite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-class-loader, ros-jazzy-rclcpp, ros-jazzy-sqlite3-vendor, ros-jazzy-warehouse-ros, ros-jazzy-ros-workspace
+Description: Implementation of warehouse_ros for sqlite
