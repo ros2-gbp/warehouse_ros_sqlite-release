@@ -1,3 +1,26 @@
+## warehouse_ros_sqlite (jazzy) - 1.0.9-1
+
+The packages in the `warehouse_ros_sqlite` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --track jazzy warehouse_ros_sqlite` on `Mon, 03 Aug 2026 08:12:25 -0000`
+
+The `warehouse_ros_sqlite` package was released.
+
+Version of package(s) in repository `warehouse_ros_sqlite`:
+
+- upstream repository: https://github.com/ros-planning/warehouse_ros_sqlite.git
+- release repository: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
+- rosdistro version: `1.0.8-1`
+- old version: `1.0.8-1`
+- new version: `1.0.9-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## warehouse_ros_sqlite (kilted) - 1.0.9-1
 
 The packages in the `warehouse_ros_sqlite` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted warehouse_ros_sqlite` on `Mon, 03 Aug 2026 08:07:55 -0000`
